@@ -144,4 +144,3 @@
 // }
 // Console.WriteLine(FindMin(new int[] { 12, 4, 9 }));
 
-// проверка
