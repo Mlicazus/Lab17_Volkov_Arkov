@@ -1,4 +1,6 @@
-﻿// int[] scores = { 60, 80, 40, 80, 90 };
+﻿// 2. Массив для проверки алгоритмов:
+
+// int[] scores = { 60, 80, 40, 80, 90 };
 // int sum = 0;
 // int min = 1000000000;
 // int max = -1;
@@ -29,6 +31,8 @@
 // System.Console.WriteLine($"Максимум: {max}");
 // System.Console.WriteLine($"Количество 50+: {count}");
 // System.Console.WriteLine($"Первый индекс 80: {first}");
+
+// 3. Сумма элементов:
 
 // int sum = 0;
 // foreach (int score in scores)
@@ -62,6 +66,8 @@
 
 // Console.WriteLine(SumArray(new int[] { 5, -2, 7 }));
 
+// 4. Подсчёт элементов по условию:
+
 // int count = 0;
 // int CountAtLeast(int[] numbers, int limit)
 // {
@@ -94,6 +100,8 @@
 //     return count;
 // }
 // Console.WriteLine(CountAtLeast(new int[] { 40, 50, 80 }, 50));
+
+// 5. Минимум и максимум:
 
 // int[] numbers = { -10, -3, -20 };
 // int FindMax(int[] scores)
@@ -144,6 +152,8 @@
 // }
 // Console.WriteLine(FindMin(new int[] { 12, 4, 9 }));
 
+// 6. Линейный поиск и индекс:
+
 // int FindIndex(int[] numbers, int target)
 // {
 //     for (int i = 0; i < numbers.Length; i++)
@@ -174,6 +184,8 @@
 // Console.WriteLine(FindIndex(scores, 80));
 // Console.WriteLine(FindIndex(scores, 60));
 // Console.WriteLine(FindIndex(scores, 100));
+
+// 7. Основная часть — «Анализатор результатов»:
 
 // int[] scores = new int[7];
 // for (int i = 0; i < scores.Length; i++)
